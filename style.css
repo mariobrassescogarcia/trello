@@ -172,18 +172,19 @@ body{
 	top: -52px;
 	z-index: 999;
 	padding: 10px 30px 0px 30px;
+	overflow: scroll;
 }
 	
 .menuheading{
 	text-align: center;
 	padding-top: 10px;
-	border-bottom: solid 1px grey;
+	border-bottom: solid 1px #d6dadc;
 	padding-bottom: 10px;
 }
 
 .groupusers{
 	width: auto;
-	border-bottom: solid 1px grey;
+	border-bottom: solid 1px #d6dadc;
 	padding-bottom: 20px;
 }
 
@@ -191,7 +192,53 @@ body{
 	border-radius: 5px;
 }
 
+.filterbox{
+	padding-top: 10px;
+	width: auto;
+}
 
+.morebox{
+	padding-top: 10px;
+	width: auto;
+	border-bottom: solid 1px #d6dadc;
+	padding-bottom: 10px;
+}
+
+.activitybox{
+	padding-top: 10px;
+	width: auto;
+	padding-bottom: 10px;
+}
+
+.activitysubbox{
+	padding-top: 10px;
+	width: auto;
+	padding-bottom: 10px;
+
+}
+
+.activity_container{
+	border-bottom: solid 1px #d6dadc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.activitytext{
+	line-height: 95%;
+	border-left: 5px;
+}
+
+.activitydates{
+	color: #8c8c8c;
+	font-size: 10px;
+}
+
+.user_icon_activity{
+	border-radius: 5px;
+	float: left;
+	margin-right: 5px;
+	padding-top: 5px;
+}
 
 
 
