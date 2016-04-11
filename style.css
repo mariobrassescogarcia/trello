@@ -108,13 +108,46 @@ body{
 }
 
 
-.colorlabel{
+.colorlabel-blue{
 	height: 7px;
 	background-color: red;
 	width: 35px;
 	color: red;
 	border-radius: 5px;
 	margin-bottom: 5px;
+}
+
+.colorlabel-blue{
+	display: inline-block;
+	height: 7px;
+	background-color: blue;
+	width: 35px;
+	color: red;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.colorlabel-red{
+	display: inline-block;
+	height: 7px;
+	background-color: red;
+	width: 35px;
+	color: red;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.colorlabel-green{
+	display: inline-block;
+	height: 7px;
+	background-color: green;
+	width: 35px;
+	color: red;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
 }
 
 
