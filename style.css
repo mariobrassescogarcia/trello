@@ -88,7 +88,8 @@ body{
 .card{
 	background-color: #e2e4e6;
 	border-radius: 5px;
-	height: 300px;
+	height: 250px;
+	overflow: scroll;
 }
 
 .cardheadings{
@@ -107,6 +108,17 @@ body{
 	margin-right: 10px;
 }
 
+.cardrows:last-child{
+	height: 50px;
+	padding-left: 15px;
+	margin-top: 15px;
+	padding-top: 12px;
+	background-color: white;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
 
 .colorlabel-blue{
 	height: 7px;
@@ -149,5 +161,37 @@ body{
 	margin-bottom: 5px;
 	margin-right: 5px;
 }
+
+
+.menu{
+	box-sizing: border-box;
+	height: 500px;
+	width: auto;
+	background-color: #edeff0;
+	position: relative; 
+	top: -52px;
+	z-index: 999;
+	padding: 10px 30px 0px 30px;
+}
+	
+.menuheading{
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: solid 1px grey;
+	padding-bottom: 10px;
+}
+
+.groupusers{
+	width: auto;
+	border-bottom: solid 1px grey;
+	padding-bottom: 20px;
+}
+
+.usersicons{
+	border-radius: 5px;
+}
+
+
+
 
 
